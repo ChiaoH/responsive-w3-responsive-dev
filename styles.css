@@ -22,7 +22,19 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.75;
+}
+
+.navbar-background {
+  background-color: var(--secondary-color);
+}
+
+#navbar-logo {
+  max-width: 36px;
+}
+
+.nav-link {
+  color: var(--tertiary-color);
 }
 
 .about-paragraphs p {
@@ -31,18 +43,6 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
-}
-
-.navbar-background {
-  background-color: var(--secondary-color);
-}
-
-#navbar-logo {
-  max-width: 12%;
-}
-
-.nav-link {
-  color: var(--tertiary-color);
 }
 
 .content {
