@@ -138,4 +138,14 @@ h3 {
   .col-sm-6 {
     margin: 10px auto;
   }
+
+  h1 {
+    font-size: 86px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 18px;
+  }
 }
