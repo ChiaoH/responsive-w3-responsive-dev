@@ -9,7 +9,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -74,7 +73,7 @@ h3 {
   border: 1px solid var(--primary-color);
 }
 
-.col-6 {
+.col-sm-6 {
   text-align: center;
   margin: 30px auto;
 }
@@ -128,4 +127,15 @@ h3 {
 #contact {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+@media (max-width: 576px) {
+  #image-weather,
+  #image-world-clock,
+  #image-fika {
+    display: none;
+  }
+  .col-sm-6 {
+    margin: 10px auto;
+  }
 }

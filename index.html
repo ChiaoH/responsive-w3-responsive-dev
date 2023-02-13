@@ -23,6 +23,7 @@
               src="images/logo.png"
               alt="wu-chiao's logo"
               id="navbar-logo"
+              title="Home"
             /> </a
         ></span>
 
@@ -40,13 +41,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                title="Home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html" title="About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact-info">Contact</a>
+              <a class="nav-link" href="about.html#contact-info" title="Contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -56,16 +65,20 @@
     <div class="content">
       <h2>👋 Hi I am</h2>
       <h1>Wu-Chiao Huang</h1>
-      <h3>👩‍💻 Front-end developer, based in Sweden</h3>
+      <span id="index-intro-h3">
+        <h3>👩‍💻 Front-end developer, based in Sweden</h3>
+      </span>
       <div class="navigation-links mb-5">
-        <a href="about.html#contact" class="contact-link">Contact me</a>
-        <a href="about.html" class="about-link">About me</a>
+        <a href="about.html#contact" class="contact-link" title="Contact me"
+          >Contact me</a
+        >
+        <a href="about.html" class="about-link" title="About me">About me</a>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <span class="col-6">
+        <span class="col-sm-6">
           <img
             src="images/weather-app.png"
             alt="weather app project image"
@@ -73,19 +86,21 @@
             class="img-fluid rounded"
           />
         </span>
-        <span class="col-6">
+        <span class="col-sm-6">
           <h2>Weather App</h2>
           <p>
             This is my latest project using Java Scrip and API to build. Users
             can search by city names, and the app will provide real data for
             both current weather and prediction.
           </p>
-          <button class="btn btn-primary">Launch Project</button>
+          <button class="btn btn-primary" title="Launch weather app">
+            Launch Project
+          </button>
         </span>
       </div>
 
       <div class="row">
-        <span class="col-6">
+        <span class="col-sm-6">
           <h2>World Clock App</h2>
           <p>
             An app for searching current time of different cities in the world.
@@ -94,11 +109,13 @@
           </p>
           <button class="btn btn-primary">Launch Project</button>
         </span>
-        <span class="col-6">
+        <span class="col-sm-6">
           <img
             src="images/world-clock.png"
             alt="world clock project image"
             class="img-fluid rounded"
+            id="image-world-clock"
+            title="Launch world clock"
           />
         </span>
       </div>
@@ -112,14 +129,16 @@
             class="img-fluid rounded"
           />
         </span>
-        <span class="col-6">
+        <span class="col-sm-6">
           <h2>Fika Landing Page</h2>
           <p>
             This is my first project using CSS, HTML and Java Scrip. It's a
             simple informational page, yet it provides the opportunity for
             interaction through the clickable button.
           </p>
-          <button class="btn btn-primary">Launch Project</button>
+          <button class="btn btn-primary" title="Launch fika page">
+            Launch Project
+          </button>
         </span>
       </div>
     </div>
